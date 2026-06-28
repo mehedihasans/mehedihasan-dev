@@ -2358,7 +2358,8 @@ left:0;
 @media (max-width:480px){
 
 .hero-text h1{
-
+    grid-template-columns:1fr;
+    text-align:center;
     font: size 30px;
 
 }
