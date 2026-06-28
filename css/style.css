@@ -2310,6 +2310,13 @@ left:0;
 .hero-content{
     grid-template-columns:1fr;
     text-align:center;
+    display: flex;
+        flex-direction: column-reverse; 
+        align-items: center;
+        gap: 40px;
+}
+.hero-image img {
+    width: 100%;
 }
 
 .hero-buttons{
@@ -2357,12 +2364,24 @@ left:0;
 }
 @media (max-width:480px){
 
+    .hero-content{
+    
+       
+        gap: 20px;
+}
 .hero-text h1{
     grid-template-columns:1fr;
     text-align:center;
-    font: size 30px;
+    font: size 25px;
 
 }
+}
+
+@media (max-width:360px) {
+    .hero-content {
+       width: 100%;
+    }
+
 
 #typing{
 
