@@ -647,7 +647,9 @@ font-size:1.2rem;
 }
 
 @media (max-width:480px){
-
+    .hero-buttons .btn {
+        margin: 3px 0;
+    }
     .orbit-container{
 
         display:none;
