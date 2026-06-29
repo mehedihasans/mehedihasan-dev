@@ -254,6 +254,7 @@ section{
     transform:translateX(-50%);
 }
 
+
 /* ==========================
    ABOUT
 ========================== */
@@ -1879,7 +1880,8 @@ to{
     margin:auto;
     color:#bdbdbd;
     font-size:16px;
-    line-height:1.8;
+    line-height:1.4;
+    margin-top: 35px;
 }
 
 /*=========================
@@ -2275,6 +2277,7 @@ left:0;
 
 .education .section-title{
     font-size:34px;
+    
 }
 
 .timeline-card{
